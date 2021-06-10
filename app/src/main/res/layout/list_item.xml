@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/itemState"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:textAllCaps="true"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/itemConfirmed"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_red"/>
+    <TextView
+        android:id="@+id/itemActive"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_blue"/>
+    <TextView
+        android:id="@+id/itemRecovered"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_green"/>
+    <TextView
+        android:id="@+id/itemDeaths"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_yellow"/>
+
+</LinearLayout>
