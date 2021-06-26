@@ -29,10 +29,10 @@ public class TrackCovidAdapter extends RecyclerView.Adapter<TrackCovidViewHolder
     public void onBindViewHolder(@NonNull TrackCovidViewHolder holder, int position) {
         TrackCovidData currentItem = (TrackCovidData) mCovidData.get(position);
         holder.state.setText(currentItem.mState);
-        holder.confirmed.setText(currentItem.mConfirmed);
-        holder.active.setText(currentItem.mActive);
-        holder.recovered.setText(currentItem.mRecovered);
-        holder.deaths.setText(currentItem.mDeaths);
+        holder.confirmed.setText("Confirmed  " + currentItem.mConfirmed);
+        holder.active.setText("Active  " + currentItem.mActive);
+        holder.recovered.setText("Recovered  " + currentItem.mRecovered);
+        holder.deaths.setText("Deaths  " + currentItem.mDeaths);
     }
 
     @Override
