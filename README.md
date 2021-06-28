@@ -3,4 +3,4 @@ An Android App which shows confirmed cases, active cases, recovered cases and de
 
 <img src="rajneeshyadav322/images/TrackCovid.jpg" />
 
-![](images/TrackCovid.jpg) 
+![](images/TrackCovid.jpg ) 
